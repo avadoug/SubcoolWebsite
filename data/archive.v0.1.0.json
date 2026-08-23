@@ -1,0 +1,73 @@
+{
+  "schemaVersion": "0.1.0",
+  "datasetVersion": "0.1.0",
+  "generatedAt": "2026-08-22",
+  "publicationState": "researching",
+  "notice": "AI-assisted research seed. Historical claims require human editorial approval before a production archive marks them published.",
+  "cultivars": [
+    { "id": "cultivar_000001", "slug": "chernobyl", "canonicalName": "Chernobyl", "aliases": [], "recordState": "evidence_review" },
+    { "id": "cultivar_000002", "slug": "vortex", "canonicalName": "Vortex", "aliases": [], "recordState": "evidence_review" },
+    { "id": "cultivar_000003", "slug": "jack-the-ripper", "canonicalName": "Jack the Ripper", "aliases": ["JTR"], "recordState": "evidence_review" },
+    { "id": "cultivar_000004", "slug": "agent-orange-tga", "canonicalName": "Agent Orange", "aliases": [], "nameCollisionNotice": "Other unrelated cultivars and products have used this name.", "recordState": "evidence_review" },
+    { "id": "cultivar_000005", "slug": "jillybean", "canonicalName": "Jillybean", "aliases": ["Jilly Bean"], "recordState": "evidence_review" },
+    { "id": "cultivar_000006", "slug": "querkle", "canonicalName": "Querkle", "aliases": [], "recordState": "evidence_review" },
+    { "id": "cultivar_000007", "slug": "plushberry", "canonicalName": "Plushberry", "aliases": ["Plush Berry", "Pink Lady (tester name)"], "recordState": "evidence_review" },
+    { "id": "cultivar_000008", "slug": "timewreck", "canonicalName": "Timewreck", "aliases": ["Time Wreck"], "recordState": "evidence_review" },
+    { "id": "cultivar_100001", "slug": "trainwreck-reference", "canonicalName": "Trainwreck", "aliases": [], "recordState": "stub" },
+    { "id": "cultivar_100002", "slug": "trinity-reference", "canonicalName": "Trinity", "aliases": [], "recordState": "stub" },
+    { "id": "cultivar_100003", "slug": "apollo-13-reference", "canonicalName": "Apollo 13", "aliases": ["A13"], "recordState": "stub" },
+    { "id": "cultivar_100004", "slug": "space-queen-reference", "canonicalName": "Space Queen", "aliases": [], "recordState": "stub" },
+    { "id": "cultivar_100005", "slug": "jacks-cleaner-reference", "canonicalName": "Jack's Cleaner", "aliases": ["JC"], "recordState": "stub" },
+    { "id": "cultivar_100006", "slug": "orange-velvet-reference", "canonicalName": "Orange Velvet", "aliases": ["Melvin (historical cut name)"], "recordState": "stub" },
+    { "id": "cultivar_100007", "slug": "purple-urkle-reference", "canonicalName": "Purple Urkle", "aliases": [], "recordState": "stub" },
+    { "id": "cultivar_100008", "slug": "black-cherry-soda-reference", "canonicalName": "Black Cherry Soda", "aliases": [], "recordState": "stub" },
+    { "id": "cultivar_100009", "slug": "blood-wreck-reference", "canonicalName": "Blood Wreck", "aliases": [], "recordState": "stub" }
+  ],
+  "sources": [
+    { "id": "source_000001", "type": "photograph", "title": "TGA Genetics Chernobyl Medical Cannabis Sativa (Dominant)", "author": "Jordan Greentree", "url": "https://www.flickr.com/photos/jordangreentree/13550911833/", "retrieved": "2026-08-22", "classification": "community_grow_record" },
+    { "id": "source_000002", "type": "archived_breeder_listing", "title": "Vortex — TGA Genetics Subcool Seeds", "url": "https://growdiaries.com/seedbank/tgagenetics/vortex", "retrieved": "2026-08-22", "classification": "secondary_archive" },
+    { "id": "source_000003", "type": "breeder_statement", "title": "Strain Report — The Ripper Effect", "author": "Subcool", "url": "https://www.weedworldmagazine.org/2018/04/11/strain-report-the-ripper-effect-by-subcool/", "retrieved": "2026-08-22", "classification": "primary" },
+    { "id": "source_000004", "type": "seed_catalog", "title": "Archived TGA catalog listing", "url": "https://overgrow.com/uploads/short-url/pKek6HDRanmf50RZ7ZIuLHuoXZT.pdf", "retrieved": "2026-08-22", "classification": "near_primary" },
+    { "id": "source_000005", "type": "breeder_interview_summary", "title": "Jilly Bean strain record", "url": "https://weedmaps.com/strains/jilly-bean", "retrieved": "2026-08-22", "classification": "secondary" },
+    { "id": "source_000006", "type": "breeder_interview_summary", "title": "Querkle strain record", "url": "https://weedmaps.com/strains/querkle", "retrieved": "2026-08-22", "classification": "secondary" },
+    { "id": "source_000007", "type": "breeder_lineage_record", "title": "Plushberry", "url": "https://mzjill.com/strain/plushberry/", "retrieved": "2026-08-22", "classification": "near_primary" },
+    { "id": "source_000008", "type": "archived_breeder_listing", "title": "Timewreck — TGA Genetics Subcool Seeds", "url": "https://growdiaries.com/seedbank/tgagenetics/timewreck", "retrieved": "2026-08-22", "classification": "secondary_archive" }
+  ],
+  "claims": [
+    { "id": "claim_000001", "subjectId": "cultivar_000001", "type": "lineage", "value": ["cultivar_100001", "cultivar_100002", "cultivar_000003"], "state": "strongly_supported", "sourceIds": ["source_000001"], "editorialState": "evidence_review" },
+    { "id": "claim_000002", "subjectId": "cultivar_000002", "type": "lineage", "value": ["cultivar_100003", "cultivar_100004"], "state": "supported", "sourceIds": ["source_000002"], "editorialState": "evidence_review" },
+    { "id": "claim_000003", "subjectId": "cultivar_000003", "type": "lineage", "value": ["cultivar_100005", "cultivar_100004"], "state": "documented", "sourceIds": ["source_000003"], "editorialState": "evidence_review" },
+    { "id": "claim_000004", "subjectId": "cultivar_000004", "type": "lineage", "value": ["cultivar_100006", "cultivar_000003"], "state": "strongly_supported", "sourceIds": ["source_000004"], "editorialState": "evidence_review" },
+    { "id": "claim_000005", "subjectId": "cultivar_000005", "type": "lineage", "value": ["cultivar_100006", "cultivar_100004"], "state": "documented", "sourceIds": ["source_000005"], "editorialState": "evidence_review" },
+    { "id": "claim_000006", "subjectId": "cultivar_000006", "type": "lineage", "value": ["cultivar_100007", "cultivar_100004"], "state": "documented", "sourceIds": ["source_000006"], "editorialState": "evidence_review" },
+    { "id": "claim_000007", "subjectId": "cultivar_000007", "type": "lineage", "value": ["cultivar_100008", "cultivar_100004"], "state": "documented", "sourceIds": ["source_000007"], "editorialState": "evidence_review" },
+    { "id": "claim_000008", "subjectId": "cultivar_000008", "type": "lineage", "value": ["cultivar_100009", "cultivar_000002"], "state": "supported", "sourceIds": ["source_000008"], "editorialState": "evidence_review" }
+  ],
+  "relationships": [
+    { "id": "relationship_000001", "from": "cultivar_000001", "type": "HAS_PARENT", "to": "cultivar_100001", "claimId": "claim_000001" },
+    { "id": "relationship_000002", "from": "cultivar_000001", "type": "HAS_PARENT", "to": "cultivar_100002", "claimId": "claim_000001" },
+    { "id": "relationship_000003", "from": "cultivar_000001", "type": "HAS_PARENT", "to": "cultivar_000003", "claimId": "claim_000001" },
+    { "id": "relationship_000004", "from": "cultivar_000002", "type": "HAS_PARENT", "to": "cultivar_100003", "claimId": "claim_000002" },
+    { "id": "relationship_000005", "from": "cultivar_000002", "type": "HAS_PARENT", "to": "cultivar_100004", "claimId": "claim_000002" },
+    { "id": "relationship_000006", "from": "cultivar_000003", "type": "HAS_PARENT", "to": "cultivar_100005", "claimId": "claim_000003" },
+    { "id": "relationship_000007", "from": "cultivar_000003", "type": "HAS_PARENT", "to": "cultivar_100004", "claimId": "claim_000003" },
+    { "id": "relationship_000008", "from": "cultivar_000004", "type": "HAS_PARENT", "to": "cultivar_100006", "claimId": "claim_000004" },
+    { "id": "relationship_000009", "from": "cultivar_000004", "type": "HAS_PARENT", "to": "cultivar_000003", "claimId": "claim_000004" },
+    { "id": "relationship_000010", "from": "cultivar_000005", "type": "HAS_PARENT", "to": "cultivar_100006", "claimId": "claim_000005" },
+    { "id": "relationship_000011", "from": "cultivar_000005", "type": "HAS_PARENT", "to": "cultivar_100004", "claimId": "claim_000005" },
+    { "id": "relationship_000012", "from": "cultivar_000006", "type": "HAS_PARENT", "to": "cultivar_100007", "claimId": "claim_000006" },
+    { "id": "relationship_000013", "from": "cultivar_000006", "type": "HAS_PARENT", "to": "cultivar_100004", "claimId": "claim_000006" },
+    { "id": "relationship_000014", "from": "cultivar_000007", "type": "HAS_PARENT", "to": "cultivar_100008", "claimId": "claim_000007" },
+    { "id": "relationship_000015", "from": "cultivar_000007", "type": "HAS_PARENT", "to": "cultivar_100004", "claimId": "claim_000007" },
+    { "id": "relationship_000016", "from": "cultivar_000008", "type": "HAS_PARENT", "to": "cultivar_100009", "claimId": "claim_000008" },
+    { "id": "relationship_000017", "from": "cultivar_000008", "type": "HAS_PARENT", "to": "cultivar_000002", "claimId": "claim_000008" }
+  ],
+  "mediaAssets": [
+    { "id": "asset_000001", "file": "public/images/chernobyl-jordan-greentree.jpg", "creator": "Jordan Greentree", "rightsStatus": "creative_commons", "license": "CC BY-SA 2.0", "identityStatus": "cultivar_verified", "cultivarId": "cultivar_000001", "sourceId": "source_000001" },
+    { "id": "asset_000002", "file": "public/images/botanical-leaves-mark-stebnicki.jpg", "creator": "Mark Stebnicki", "rightsStatus": "licensed_stock", "license": "Pexels License", "identityStatus": "botanical_reference" },
+    { "id": "asset_000003", "file": "public/images/botanical-outdoor-mark-stebnicki.jpg", "creator": "Mark Stebnicki", "rightsStatus": "licensed_stock", "license": "Pexels License", "identityStatus": "botanical_reference" },
+    { "id": "asset_000004", "file": "public/images/botanical-macro-cannafornia.jpg", "creator": "Cannafornia", "rightsStatus": "licensed_stock", "license": "Pexels License", "identityStatus": "botanical_reference" },
+    { "id": "asset_000005", "file": "public/images/botanical-plate-thome.jpg", "creator": "Otto Wilhelm Thomé", "rightsStatus": "public_domain", "license": "Public Domain Mark 1.0", "identityStatus": "botanical_reference" }
+  ],
+  "editorialDecisions": []
+}
